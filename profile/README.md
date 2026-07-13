@@ -4,28 +4,47 @@
 
 Project Dominion Studios is an independent, learning-driven game studio developing **Galactic Dominion**, a modern Discord-first successor to classic persistent online space strategy games.
 
-## Current project
+## Current flagship project
 
 ### Galactic Dominion
 
 A turn-oriented multiplayer strategy game focused on exploration, empire-building, diplomacy, fleet command, and a living galaxy shared with friends and rule-based AI empires.
 
-**Current milestone:** Alpha 2 — First Contact  
-**Current audience:** Private friends-and-family testing
+- **Development codename:** Project Dominion
+- **Current milestone:** Alpha 2 — First Contact
+- **Current audience:** Private friends-and-family testing
+- **Game domain:** `Project-Dominion.com`
 
-## Repository family
+## Repository organization
 
-| Area | Repository | Purpose |
-|---|---|---|
-| Game | `ProjectDominion` | Authoritative rules, application logic, Discord bot, persistence, and tests |
-| Design | `ProjectDominion.Design` | Logos, icons, UI/UX, web, social, streaming, and press assets |
-| Website | `ProjectDominion.Website` | Public studio and game website |
-| Lore | `ProjectDominion.Lore` | Canon, factions, history, terminology, and narrative |
-| Tools | `ProjectDominion.Tools` | Editors, generators, simulators, and content utilities |
-| Infrastructure | `ProjectDominion.Infrastructure` | Hosting, deployment, monitoring, backups, and operations |
-| Automation | `ProjectDominion.n8n` | Registration, email, Discord, and publishing workflows |
-| Platform | `ProjectDominion.Platform` | Future accounts, API, administration, and shared online services |
-| Client | `ProjectDominion.Client` | Future graphical game client |
+The organization uses a deliberate naming boundary:
+
+- **`.github` and `Studio.*`** repositories govern and operate Project Dominion Studios as a company.
+- **`ProjectDominion` and `ProjectDominion.*`** repositories build and operate the flagship Project Dominion program and Galactic Dominion product.
+
+### Studio repositories
+
+| Repository | Purpose |
+|---|---|
+| `.github` | Organization profile, contribution defaults, security guidance, and GitHub governance |
+| `Studio.Design` | Studio identity, organization imagery, shared visual standards, social templates, and company press assets |
+| `Studio.Website` | `ProjectDominionStudios.com`, company information, project portfolio, press, and contact pages |
+| `Studio.Infrastructure` | Studio domains, shared services, organization integrations, monitoring, backups, and operational policy |
+| `Studio.Automation` | Studio publishing, newsletter, press, portfolio, and shared administrative automation |
+
+### Project Dominion repositories
+
+| Repository | Purpose |
+|---|---|
+| `ProjectDominion` | Authoritative game rules, application logic, Discord bot, runtime adapters, persistence, and tests |
+| `ProjectDominion.Design` | Project Dominion and Galactic Dominion branding, repository icons, UI/UX, product web, social, streaming, and press assets |
+| `ProjectDominion.Website` | `Project-Dominion.com`, Galactic Dominion product pages, registration UI, news, roadmap, and community entry points |
+| `ProjectDominion.Lore` | Canon, factions, history, terminology, narrative, and approved game-data exports |
+| `ProjectDominion.Tools` | Independent editors, generators, simulators, validators, and content utilities |
+| `ProjectDominion.Infrastructure` | Galactic Dominion hosting, deployment, monitoring, backups, and game operational runbooks |
+| `ProjectDominion.n8n` | Game registration, email, Discord, and product publishing workflows |
+| `ProjectDominion.Platform` | Future accounts, API, administration, identity, and shared online game services |
+| `ProjectDominion.Client` | Future graphical Galactic Dominion client |
 
 ## Studio principles
 
