@@ -35,11 +35,14 @@ Keep `main` buildable and do not commit secrets, credentials, personal data, gen
 
 Do not duplicate authoritative content across repositories. Link to the source of truth instead.
 
-- Game rules belong in `ProjectDominion`.
-- Production visual assets belong in `ProjectDominion.Design`.
-- Canon belongs in `ProjectDominion.Lore`.
-- Deployment definitions belong in `ProjectDominion.Infrastructure`.
-- Automation exports belong in `ProjectDominion.n8n`.
+- Galactic Dominion rules, source, product design, canon, website concepts,
+  tooling, infrastructure plans, automation plans, platform plans, and client
+  plans belong in `ProjectDominion`.
+- Studio-wide identity, operations, design, website, infrastructure, and
+  automation belong in the matching `Studio.*` repository.
+- Do not recreate or reactivate a specialized `ProjectDominion.*` repository
+  without an explicit founder decision and a concrete, sustainable ownership
+  boundary.
 
 ## AI-assisted work
 
