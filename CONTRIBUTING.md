@@ -39,7 +39,7 @@ Do not duplicate authoritative content across repositories. Link to the source o
   tooling, infrastructure plans, automation plans, platform plans, and client
   plans belong in `ProjectDominion`.
 - Studio-wide identity, operations, design, website, infrastructure, and
-  automation belong in the matching `Studio.*` repository.
+  automation belong in the matching area of the `Studio` monorepo.
 - Do not recreate or reactivate a specialized `ProjectDominion.*` repository
   without an explicit founder decision and a concrete, sustainable ownership
   boundary.
