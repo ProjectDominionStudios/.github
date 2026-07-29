@@ -65,20 +65,20 @@ Project Dominion Studios treats code, documentation, testing, architecture, lear
 
 The organization uses deliberate naming boundaries to keep studio operations separate from individual products and programs.
 
-- **`.github` and `Studio.*`** repositories govern and operate Project Dominion Studios.
+- **`.github` and `Studio`** govern and operate Project Dominion Studios.
 - **`ProjectDominion`** is the sole canonical repository for the flagship Project Dominion program and Galactic Dominion product.
-- **Founder and incubated project repositories** preserve private planning, learning, career development, experiments, and early-stage product work.
+- **Private personal repositories** preserve founder planning, learning, career development, experiments, and early-stage product work outside the studio organization.
 
-### Studio repositories
+### Studio monorepo
 
-| Repository | Purpose |
+| Repository or area | Purpose |
 |---|---|
 | `.github` | Organization profile, contribution defaults, security guidance, and GitHub governance |
-| `Studio.Management` | Studio operating standards, engineering practices, policies, and institutional history |
-| `Studio.Design` | Studio identity, organization imagery, shared visual standards, social templates, and press assets |
-| `Studio.Website` | `ProjectDominionStudios.com`, company information, project portfolio, press, and contact pages |
-| `Studio.Infrastructure` | Studio domains, shared services, organization integrations, monitoring, backups, and operational policy |
-| `Studio.Automation` | Studio publishing, newsletter, press, portfolio, and shared administrative automation |
+| `Studio/management` | Studio operating standards, engineering practices, policies, and institutional history |
+| `Studio/design` | Studio identity, organization imagery, shared visual standards, social templates, and press assets |
+| `Studio/website` | `ProjectDominionStudios.com`, company information, project portfolio, press, and contact pages |
+| `Studio/infrastructure` | Studio domains, shared services, organization integrations, monitoring, backups, and operational policy |
+| `Studio/automation` | Studio publishing, newsletter, press, portfolio, and shared administrative automation |
 
 ### Project Dominion repository
 
