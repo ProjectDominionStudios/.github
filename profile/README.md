@@ -30,7 +30,7 @@ Create a sustainable studio where software, operational knowledge, engineering s
 A turn-oriented multiplayer strategy game focused on exploration, empire-building, diplomacy, fleet command, and a living galaxy shared with friends and rule-based AI empires.
 
 - **Development codename:** Project Dominion
-- **Current milestone:** Alpha 2 — First Contact
+- **Current milestone:** Development paused — no active gameplay milestone
 - **Current audience:** Private friends-and-family testing
 - **Game domain:** `Project-Dominion.com`
 
@@ -66,7 +66,7 @@ Project Dominion Studios treats code, documentation, testing, architecture, lear
 The organization uses deliberate naming boundaries to keep studio operations separate from individual products and programs.
 
 - **`.github` and `Studio.*`** repositories govern and operate Project Dominion Studios.
-- **`ProjectDominion` and `ProjectDominion.*`** repositories build and operate the flagship Project Dominion program and Galactic Dominion product.
+- **`ProjectDominion`** is the sole canonical repository for the flagship Project Dominion program and Galactic Dominion product.
 - **Founder and incubated project repositories** preserve private planning, learning, career development, experiments, and early-stage product work.
 
 ### Studio repositories
@@ -80,19 +80,15 @@ The organization uses deliberate naming boundaries to keep studio operations sep
 | `Studio.Infrastructure` | Studio domains, shared services, organization integrations, monitoring, backups, and operational policy |
 | `Studio.Automation` | Studio publishing, newsletter, press, portfolio, and shared administrative automation |
 
-### Project Dominion repositories
+### Project Dominion repository
 
 | Repository | Purpose |
 |---|---|
-| `ProjectDominion` | Authoritative game rules, application logic, Discord bot, runtime adapters, persistence, and tests |
-| `ProjectDominion.Design` | Project Dominion and Galactic Dominion branding, repository icons, UI/UX, product web, social, streaming, and press assets |
-| `ProjectDominion.Website` | `Project-Dominion.com`, Galactic Dominion product pages, registration UI, news, roadmap, and community entry points |
-| `ProjectDominion.Lore` | Canon, factions, history, terminology, narrative, and approved game-data exports |
-| `ProjectDominion.Tools` | Independent editors, generators, simulators, validators, and content utilities |
-| `ProjectDominion.Infrastructure` | Galactic Dominion hosting, deployment, monitoring, backups, and game operational runbooks |
-| `ProjectDominion.n8n` | Game registration, email, Discord, and product publishing workflows |
-| `ProjectDominion.Platform` | Future accounts, API, administration, identity, and shared online game services |
-| `ProjectDominion.Client` | Future graphical Galactic Dominion client |
+| `ProjectDominion` | Authoritative home for game rules, source, tests, product design, canon, website concepts, tools, infrastructure plans, automation plans, platform plans, and future client plans |
+
+The former `ProjectDominion.*` placeholder repositories were retired on
+2026-07-29. Specialized repositories may be created again only when approved
+work has a concrete, stable, and sustainable ownership boundary.
 
 ## Why Project Dominion Studios?
 
