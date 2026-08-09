@@ -1,31 +1,35 @@
 # Security Policy
 
+Status: **Published organization default**
+
+Knowledge Object ID: `PDS-KO-PUB-GITHUB-SECURITY-0001`
+
 ## Reporting a vulnerability
 
-Do not open a public issue for suspected vulnerabilities, exposed secrets, private player information, infrastructure access, or abuse paths.
+Do not open a public issue for a suspected vulnerability, exposed secret,
+personal-data disclosure, infrastructure access path, or abuse scenario.
 
-Use GitHub's private vulnerability reporting feature on the affected repository when available. If private reporting is unavailable, contact the repository owner through an established private channel.
+Use GitHub's private vulnerability reporting feature on the affected repository
+when available. If private reporting is unavailable, contact the repository
+owner through an established private channel.
 
-Include:
+Include only what is necessary:
 
-- affected repository and version or commit
-- clear reproduction steps
-- potential impact
-- whether credentials or personal data may be exposed
-- suggested mitigation, when known
+- affected repository and version or commit;
+- clear reproduction steps;
+- likely impact;
+- whether credentials or personal data may be exposed; and
+- a suggested mitigation, when known.
 
-## Scope
+## Responsible handling
 
-Security reports may include:
+- Do not exploit a vulnerability beyond what is required to demonstrate it.
+- Do not access unrelated data, disrupt services, or publish sensitive proof.
+- Preserve evidence while minimizing collection and disclosure.
+- Rotate or revoke exposed credentials through an authorized private process.
+- Coordinate public disclosure only after remediation and explicit approval.
 
-- authentication or authorization failures
-- secret exposure
-- injection or remote execution paths
-- insecure workflow or deployment configuration
-- privacy or personal-data exposure
-- abuse of registration, Discord, email, or publishing systems
-- supply-chain or dependency concerns
-
-## Expectations
-
-Project Dominion Studios will investigate responsibly, limit unnecessary disclosure, preserve evidence, and prioritize player and contributor safety. Do not exploit a vulnerability beyond what is required to demonstrate it, access unrelated data, or disrupt services.
+Project Dominion Studios will investigate responsibly, limit unnecessary
+disclosure, preserve evidence, and prioritize user and contributor safety. This
+document does not promise a specific response time or authorize testing outside
+the affected repository's stated scope.

@@ -1,0 +1,52 @@
+schema_version: "1.0.0"
+document:
+  knowledge_object_id: PDS-KO-PUB-GITHUB-DEFAULTS-0001
+  title: Project Dominion Studios Published GitHub Defaults
+  status: approved
+  canonical_owner: ProjectDominionStudios
+  steward: founder
+  knowledge_domain: PDS.Studio
+  additional_domains: [PDS.Governance, PDS.Standards]
+  knowledge_role: published
+  lifecycle_state: active
+  security_classification: public
+  human_companion: PUBLICATION-PROVENANCE.md
+source:
+  repository_record_id: PDS-REPO-STUDIO-0001
+  revision: 53ccd17bce8ab586070918445537eb81c8d0c022
+  source_object_ids:
+    - PDS-KO-STUDIO-GOV-0001
+    - PDS-KO-STUDIO-SEC-0001
+    - PDS-KO-STUDIO-ACCESS-0001
+    - PDS-KO-CKOM-0001
+    - PDS-KO-BRAND-PROTECTION-0001
+    - PDS-KO-ENG-001
+    - PDS-KO-ENG-002
+    - PDS-KO-ENG-003
+publication:
+  issue: 6
+  scope: organization_profile_and_community_health_defaults
+  public_repository: ProjectDominionStudios/.github
+  external_state_change: public_git_content_only
+  deployment_authorized: false
+  permission_change_authorized: false
+  product_launch_authorized: false
+sanitization:
+  reviewed_at: "2026-08-08"
+  excludes:
+    - secrets_and_credentials
+    - personal_data
+    - private_local_paths
+    - nonpublic_environment_details
+    - internal_operational_evidence
+    - product_content_without_an_approved_published_object
+projections:
+  - {path: README.md, object_id: PDS-KO-PUB-GITHUB-REPO-0001, sha256: 112909c1e1a77b3656c16f85d8f6350d5d90dcc688c44edff82013f03b7542ca}
+  - {path: profile/README.md, object_id: PDS-KO-PUB-GITHUB-PROFILE-0001, sha256: 7a07e8f0c1cffb9720d1e76056a9c8a45fb18a12aecdc3ea97b40fe986916b15}
+  - {path: CONTRIBUTING.md, object_id: PDS-KO-PUB-GITHUB-CONTRIBUTING-0001, sha256: f7b07d25ee230c105d3dacdd131caa42521374977cbcaf6c23cff2b756ba0622}
+  - {path: SECURITY.md, object_id: PDS-KO-PUB-GITHUB-SECURITY-0001, sha256: 1ab9b8fa59abf895cf365c769405ce40553024884cdd9ab67d43dee28acdbc9a}
+  - {path: PULL_REQUEST_TEMPLATE.md, object_id: PDS-KO-PUB-GITHUB-PR-TEMPLATE-0001, sha256: 438e4c1a644a680ce47fb38e5c3aff079ca4157e004c59aae7ff9ba9708d8fe7}
+recovery:
+  baseline_revision: 52af879d78183b84fe61b41d50a078e679b90b6d
+  bundle_sha256: 0530c0f10284d85dc50d4a5cf16cb8652262908ad4c5aeddbede68f611b29c79
+  method: authorized_revert_without_history_rewrite
