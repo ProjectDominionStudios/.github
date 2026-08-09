@@ -1,19 +1,29 @@
+<!-- Published Knowledge Object: PDS-KO-PUB-GITHUB-PR-TEMPLATE-0001 -->
+
 ## Summary
 
-Describe the change and the problem it solves.
+Describe the outcome and the problem it solves.
 
-## Repository boundary
+## Scope and ownership
 
-Explain why this change belongs in this repository and identify any cross-repository dependencies.
+- Why does this change belong in this repository?
+- Which Knowledge Objects or implementation areas are affected?
+- Are cross-repository references or human/machine companions updated?
+
+## Risk and rollback
+
+Describe material security, privacy, compatibility, migration, publication, or
+operational risk and the safe rollback approach.
 
 ## Validation
 
-- [ ] Relevant build, tests, or validation completed
-- [ ] No secrets, credentials, personal data, or unnecessary generated files included
-- [ ] Documentation updated where behavior or ownership changed
-- [ ] Screenshots, previews, or export samples included for visual work
-- [ ] Accessibility and responsive behavior considered where applicable
-- [ ] AI-assisted output was reviewed by a human
+- [ ] Acceptance criteria are satisfied
+- [ ] Relevant tests and repository validation pass
+- [ ] Documentation and machine-readable companions remain aligned
+- [ ] No secrets, credentials, personal data, or unauthorized public content are included
+- [ ] Links, references, and provenance were checked
+- [ ] Accessibility and responsive behavior were considered when applicable
+- [ ] AI-assisted output was reviewed by an accountable human
 
 ## Related work
 
@@ -21,4 +31,6 @@ Closes #
 
 ## Notes for reviewers
 
-Call out risks, decisions, follow-up work, or areas needing special attention.
+Call out unresolved decisions, required approvals, or follow-up work. A pull
+request does not itself authorize deployment, publication, permission changes,
+or another Founder-reserved external action.

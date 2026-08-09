@@ -1,53 +1,51 @@
 # Contributing to Project Dominion Studios
 
+Status: **Published organization default**
+
+Knowledge Object ID: `PDS-KO-PUB-GITHUB-CONTRIBUTING-0001`
+
 Thank you for helping build Project Dominion Studios.
 
 ## Before starting
 
-1. Read the target repository's README and contribution notes.
-2. Confirm the work belongs in that repository.
-3. Open or reference a GitHub issue with a clear outcome and acceptance criteria.
-4. Start from current `main`; do not build new work on an old merged branch.
+1. Read the target repository's README, governance, security, and contribution
+   notes.
+2. Confirm the work belongs in that repository and identify the canonical owner
+   of any knowledge being changed.
+3. Open or reference one GitHub issue with a bounded outcome, acceptance
+   criteria, validation, and rollback approach.
+4. Start from current `main` and confirm the baseline is clean.
 
-## Branches
+## Development workflow
 
-Use short-lived branches:
-
-- `feature/<description>`
-- `fix/<description>`
-- `docs/<description>`
-- `chore/<description>`
+- Use one issue, one short-lived branch, and one pull request per implementation
+  unit.
+- Use `issue-<number>-<short-description>` for a general branch. Codex-created
+  branches use `agent/issue-<number>-<short-scope>`.
+- Keep commits focused and descriptive.
+- Preserve provenance and Git history when moving canonical knowledge.
+- Validate before merge; merge only after required checks pass.
+- Delete the completed branch after merge and verify the linked issue closed.
 
 ## Pull requests
 
-Pull requests should be small enough to review safely and include:
+Explain what changed, why it belongs in the repository, affected knowledge
+ownership, risk, validation, rollback, and any human/machine documentation
+updates. Include screenshots or accessible previews when visual behavior
+changes.
 
-- what changed
-- why it changed
-- user or contributor impact
-- validation performed
-- screenshots or visual comparisons for UI and design work
-- linked issues and relevant decisions
+## Public and sensitive information
 
-Keep `main` buildable and do not commit secrets, credentials, personal data, generated caches, or unnecessary binaries.
-
-## Repository boundaries
-
-Do not duplicate authoritative content across repositories. Link to the source of truth instead.
-
-- Galactic Dominion rules, source, product design, canon, website concepts,
-  tooling, infrastructure plans, automation plans, platform plans, and client
-  plans belong in `ProjectDominion`.
-- Studio-wide identity, operations, design, website, infrastructure, and
-  automation belong in the matching area of the `Studio` monorepo.
-- Do not recreate or reactivate a specialized `ProjectDominion.*` repository
-  without an explicit founder decision and a concrete, sustainable ownership
-  boundary.
+Do not commit credentials, tokens, keys, recovery material, personal data,
+private operational details, generated caches, or unnecessary binaries.
+Public placement does not itself authorize publication. Follow the stricter
+repository-specific classification, privacy, security, and approval rules.
 
 ## AI-assisted work
 
-AI-generated changes require human review. Verify behavior, licensing, security, accessibility, and factual accuracy before merging.
+AI may assist with analysis and implementation, but it does not approve its own
+authority. A human remains accountable for correctness, licensing, security,
+privacy, accessibility, and external effects.
 
-## Sustainable development
-
-Project Dominion Studios values steady, health-aware progress. Scope should be reduced before quality, safety, or contributor wellbeing are sacrificed.
+Repository-specific requirements take precedence over these organization
+defaults.

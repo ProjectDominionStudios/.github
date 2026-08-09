@@ -1,0 +1,28 @@
+name: Validate public organization defaults
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  public-projection:
+    name: Published projection
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install validation dependency
+        run: python -m pip install --disable-pip-version-check "PyYAML==6.0.2"
+      - name: Validate published projection
+        run: python scripts/validate_public_projection.py
+      - name: Test sanitization negative cases
+        run: python -m unittest scripts.test_public_projection
+      - name: Verify diff whitespace
+        run: git diff --check HEAD^
