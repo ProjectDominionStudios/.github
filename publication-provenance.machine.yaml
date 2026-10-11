@@ -42,7 +42,7 @@ sanitization:
     - product_content_without_an_approved_published_object
 projections:
   - {path: README.md, object_id: PDS-KO-PUB-GITHUB-REPO-0001, sha256: 112909c1e1a77b3656c16f85d8f6350d5d90dcc688c44edff82013f03b7542ca}
-  - {path: profile/README.md, object_id: PDS-KO-PUB-GITHUB-PROFILE-0001, sha256: 7a07e8f0c1cffb9720d1e76056a9c8a45fb18a12aecdc3ea97b40fe986916b15}
+  - {path: profile/README.md, object_id: PDS-KO-PUB-GITHUB-PROFILE-0001, sha256: 48e0b38df4edf87179fc1822cd5e89fa76d6cb2d7b503595963d4f902d915bb9}
   - {path: CONTRIBUTING.md, object_id: PDS-KO-PUB-GITHUB-CONTRIBUTING-0001, sha256: f7b07d25ee230c105d3dacdd131caa42521374977cbcaf6c23cff2b756ba0622}
   - {path: SECURITY.md, object_id: PDS-KO-PUB-GITHUB-SECURITY-0001, sha256: 1ab9b8fa59abf895cf365c769405ce40553024884cdd9ab67d43dee28acdbc9a}
   - {path: PULL_REQUEST_TEMPLATE.md, object_id: PDS-KO-PUB-GITHUB-PR-TEMPLATE-0001, sha256: 438e4c1a644a680ce47fb38e5c3aff079ca4157e004c59aae7ff9ba9708d8fe7}
@@ -50,3 +50,12 @@ recovery:
   baseline_revision: 52af879d78183b84fe61b41d50a078e679b90b6d
   bundle_sha256: 0530c0f10284d85dc50d4a5cf16cb8652262908ad4c5aeddbede68f611b29c79
   method: authorized_revert_without_history_rewrite
+
+tagline_update:
+  issue: 8
+  approved_wording: "Imagine. Build. Create."
+  authority: founder_explicit_instruction_2026_10_11
+  source_repository_record_id: PDS-REPO-STUDIO-0001
+  source_revision: f1db46b5f60f9509daf340d7fa800c6a0dc2acc9
+  scope: profile_tagline_only
+  deployment_authorized: false
