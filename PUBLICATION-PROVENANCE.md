@@ -34,3 +34,7 @@ The pre-publication repository baseline is `52af879d78183b84fe61b41d50a078e679b9
 Its verified complete-history recovery bundle has SHA-256
 `0530c0f10284d85dc50d4a5cf16cb8652262908ad4c5aeddbede68f611b29c79`.
 Rollback uses an authorized revert without history rewrite.
+
+## Tagline update - 2026-10-11
+
+Scott Henderson selected **Imagine. Build. Create.** and explicitly requested canonical repository adoption. Issue #8 updates only the organization profile tagline and its integrity record. Source repository record PDS-REPO-STUDIO-0001, revision `f1db46b5f60f9509daf340d7fa800c6a0dc2acc9`, carries the corresponding brand decision. The original source revision above continues to govern the unchanged community defaults. No deployment, permissions or profile settings are changed. Rollback is an authorized revert.

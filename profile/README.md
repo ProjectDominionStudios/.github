@@ -1,6 +1,6 @@
 # Project Dominion Studios
 
-**Games and technology, built with purpose.**
+**Imagine. Build. Create.**
 
 Project Dominion Studios is a technology and innovation studio focused on
 practical software, responsible AI and automation, developer tools, cloud and
