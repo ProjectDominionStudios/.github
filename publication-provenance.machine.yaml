@@ -41,11 +41,11 @@ sanitization:
     - internal_operational_evidence
     - product_content_without_an_approved_published_object
 projections:
-  - {path: README.md, object_id: PDS-KO-PUB-GITHUB-REPO-0001, sha256: 112909c1e1a77b3656c16f85d8f6350d5d90dcc688c44edff82013f03b7542ca}
+  - {path: README.md, object_id: PDS-KO-PUB-GITHUB-REPO-0001, sha256: 9f53ea62559fee84a08f6d5af0eccf3adcbacf1c824cb27b26efc7b4c63c8263}
   - {path: profile/README.md, object_id: PDS-KO-PUB-GITHUB-PROFILE-0001, sha256: 48e0b38df4edf87179fc1822cd5e89fa76d6cb2d7b503595963d4f902d915bb9}
-  - {path: CONTRIBUTING.md, object_id: PDS-KO-PUB-GITHUB-CONTRIBUTING-0001, sha256: f7b07d25ee230c105d3dacdd131caa42521374977cbcaf6c23cff2b756ba0622}
+  - {path: CONTRIBUTING.md, object_id: PDS-KO-PUB-GITHUB-CONTRIBUTING-0001, sha256: 401c5e5b6b41236a5205763412748b09716ce62183f4887d8ec8f64849f85981}
   - {path: SECURITY.md, object_id: PDS-KO-PUB-GITHUB-SECURITY-0001, sha256: 1ab9b8fa59abf895cf365c769405ce40553024884cdd9ab67d43dee28acdbc9a}
-  - {path: PULL_REQUEST_TEMPLATE.md, object_id: PDS-KO-PUB-GITHUB-PR-TEMPLATE-0001, sha256: 438e4c1a644a680ce47fb38e5c3aff079ca4157e004c59aae7ff9ba9708d8fe7}
+  - {path: PULL_REQUEST_TEMPLATE.md, object_id: PDS-KO-PUB-GITHUB-PR-TEMPLATE-0001, sha256: 54800cec4c8cfa298a2a7bba38c4f5662ee82b979ddcd740094af6a796ae461a}
 recovery:
   baseline_revision: 52af879d78183b84fe61b41d50a078e679b90b6d
   bundle_sha256: 0530c0f10284d85dc50d4a5cf16cb8652262908ad4c5aeddbede68f611b29c79
@@ -58,4 +58,25 @@ tagline_update:
   source_repository_record_id: PDS-REPO-STUDIO-0001
   source_revision: f1db46b5f60f9509daf340d7fa800c6a0dc2acc9
   scope: profile_tagline_only
+  deployment_authorized: false
+
+publication_closeout_update:
+  source_control: PDS-KO-STUDIO-AI-ENGAGEMENT-0001
+  source_revision: a41fe60e343bb00fdf6472a44c210010d87f521a
+  source_rule: PDS-KO-STUDIO-AI-ENGAGEMENT-0001/publication-approval-and-github-closeout
+  adopted_by: Scott Henderson
+  adopted_on: '2026-10-24'
+  publication_approval_includes_topic_GitHub_closeout: true
+  duplicate_merge_approval_required: false
+  approval_and_source_publication_evidence_required: true
+  traceable_prior_publications_included: true
+  explicit_publication_exclusions_honored: true
+  checks_reviews_protections_and_scope_review_required: true
+  stacked_dependency_order_and_unique_work_preservation_required: true
+  close_only_completed_related_issues: true
+  superseded_PR_disposition_requires_preserved_work_and_replacement: true
+  final_default_branch_PR_issue_and_publication_readback_required: true
+  unrelated_deployment_activation_settings_or_trust_increase_authorized: false
+  issue: 10
+  scope: sanitized_README_contribution_and_PR_workflow_projection
   deployment_authorized: false

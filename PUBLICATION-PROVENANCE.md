@@ -38,3 +38,7 @@ Rollback uses an authorized revert without history rewrite.
 ## Tagline update - 2026-10-11
 
 Scott Henderson selected **Imagine. Build. Create.** and explicitly requested canonical repository adoption. Issue #8 updates only the organization profile tagline and its integrity record. Source repository record PDS-REPO-STUDIO-0001, revision `f1db46b5f60f9509daf340d7fa800c6a0dc2acc9`, carries the corresponding brand decision. The original source revision above continues to govern the unchanged community defaults. No deployment, permissions or profile settings are changed. Rollback is an authorized revert.
+
+## Publication-closeout workflow amendment — October 24, 2026
+
+Scott explicitly requested aligned Markdown/YAML instructions so publication approval includes GitHub closeout on the referenced topic. Issue #10 updates the sanitized contribution/PR workflow projection and README pointer from Studio issue #147 / PR #148, merged at `a41fe60e343bb00fdf6472a44c210010d87f521a`. The original source revision and earlier publication/tagline records remain historical evidence. This update publishes only the approved workflow clarification; it adds no credentials, private environment details, settings, deployment or general autonomous authority. Updated projection hashes are recorded in the machine companion. Rollback uses a reviewable revert.
